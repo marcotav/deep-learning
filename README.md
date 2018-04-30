@@ -132,7 +132,7 @@ The number of training examples in our dataset is rather small (for image recogn
 
 <br>
 <p align="center">
-  <img src="inceptionV3tds.png" 
+  <img src="images/inceptionV3tds.png" 
        width="600" height="300">
 </p>                                   
                                  
@@ -214,7 +214,7 @@ print('Predicted:', decode_predictions(preds))
 ```
 <br>
 <p align="center">
-  <img src="91485.jpg">
+  <img src="images/91485.jpg">
 </p>                                   
                                  
 <br> 
@@ -266,14 +266,14 @@ The plots of the training history. The first shows the accuracy and the second s
 <br>
 
 <p align="center">
-  <img src="acc.png">
+  <img src="images/acc.png">
 </p>                                   
                                  
 <br>  
 
 
 <p align="center">
-  <img src="loss.png">
+  <img src="images/loss.png">
 </p>                                   
                                  
 <br> 

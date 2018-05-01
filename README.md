@@ -4,12 +4,7 @@
 <br/>
 <p align="center">
   <img src="https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/images/Deep%20learning%20neural%20network.jpg" width="400">
-</p>https://github.com/marcotav/deep-learning/blob/master/painters-identification/README.md
-
-
-
-
-
+</p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Image title](https://img.shields.io/badge/painter--id-v1.0-lightgrey.svg) ![image title](https://img.shields.io/badge/work-in%20progress-blue.svg) ![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/TensorFlow-v1.7.0-orange.svg)
@@ -47,6 +42,7 @@ My goal was to build predictive models for the price of Bitcoins and other crypt
 In this notebook I will build and train two types of neural network using the MNIST dataset, namely:
 - A fully-connected neural network using TensorFlow
 - A Keras convolutional network
+
 More details [here](https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/README.md),
 <br/>
 <p align="center">

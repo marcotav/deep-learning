@@ -4,7 +4,7 @@
 <br/>
 <p align="center">
   <img src="https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/images/Deep%20learning%20neural%20network.jpg" width="400">
-</p>
+</p>https://github.com/marcotav/deep-learning/blob/master/painters-identification/README.md
 
 
 
@@ -22,7 +22,7 @@
 
 ## painter-identifier
 
-The goal of this project is to use Transfer Learning to build a Convolutional Neural Network (or ConvNet) to identify the artist of a painting.
+The goal of this project is to use Transfer Learning to build a Convolutional Neural Network (or ConvNet) to identify the artist of a painting. More details [here](https://github.com/marcotav/deep-learning/blob/master/painters-identification/README.md),
 
 <br/>
 <p align="center">

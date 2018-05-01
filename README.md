@@ -32,7 +32,7 @@ The goal of this project is to use Transfer Learning to build a Convolutional Ne
 
 ## bitcoin
 
-My goal was to build predictive models for the price of Bitcoins and other cryptocurrencies. I used Long Short-Term Memory recurrent neural networks (LSTMs).
+My goal was to build predictive models for the price of Bitcoins and other cryptocurrencies. I used Long Short-Term Memory recurrent neural networks (LSTMs). More details [here](https://github.com/marcotav/deep-learning/blob/master/bitcoin/README.md),
 
 <br/>
 <p align="center">
@@ -47,7 +47,7 @@ My goal was to build predictive models for the price of Bitcoins and other crypt
 In this notebook I will build and train two types of neural network using the MNIST dataset, namely:
 - A fully-connected neural network using TensorFlow
 - A Keras convolutional network
-
+More details [here](https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/README.md),
 <br/>
 <p align="center">
   <img src="https://github.com/marcotav/neural-nets-tutorial/blob/master/MNIST_3.png" width="120">

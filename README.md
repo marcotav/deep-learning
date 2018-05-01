@@ -50,5 +50,5 @@ In this notebook I will build and train two types of neural network using the MN
 
 <br/>
 <p align="center">
-  <img src="https://github.com/marcotav/deep-learning-applied-to-bitcoins/blob/master/btc-orange1.jpg" width="120">
+  <img src="https://github.com/marcotav/neural-nets-tutorial/blob/master/MNIST_3.png" width="120">
 </p>

@@ -18,7 +18,7 @@
 
 * [painter-identifier](#painter-identifier)
 * [bitcoin](#bitcoin)
-* [cnn-keras-tensor-flow](#cnn-keras-tensor-flow)
+* [keras-tf-tutorial](#keras-tf-tutorial)
 
 ## painter-identifier
 
@@ -34,7 +34,7 @@ The goal of this project is to use Transfer Learning to build a Convolutional Ne
 
 My goal was to build predictive models for the price of Bitcoins and other cryptocurrencies. I used Long Short-Term Memory recurrent neural networks (LSTMs).
 
-## cnn-keras-tensor-flow
+## keras-tf-tutorial
 
 In this notebook I will build and train two types of neural network using the MNIST dataset, namely:
 - A fully-connected neural network using TensorFlow

@@ -4,7 +4,7 @@
 ![image title](https://img.shields.io/badge/work-in%20progress-blue.svg) ![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/TensorFlow-v1.7.0-orange.svg) ![image title](https://img.shields.io/badge/statsmodels-v0.8.0-blue.svg) ![Image title](https://img.shields.io/badge/sklearn-0.19.1-orange.svg) ![Image title](https://img.shields.io/badge/seaborn-v0.8.1-yellow.svg) ![Image title](https://img.shields.io/badge/pandas-0.22.0-red.svg) ![Image title](https://img.shields.io/badge/numpy-1.14.2-green.svg) ![Image title](https://img.shields.io/badge/matplotlib-v2.1.2-orange.svg) ![Image title](https://img.shields.io/badge/datetime-v4.0-blue.svg) ![Image title](https://img.shields.io/badge/scipy-v1.0.0-red.svg)
 
 <p align="center">
-  <img src="btc-orange1.jpg", width=180>
+  <img src="images/btc-orange1.jpg", width=180>
 </p>                                                                  
 <p align="center">
   <a href="#pre">Preamble </a> •
@@ -76,11 +76,11 @@ df = pd.read_csv('bitcoin_data.csv')
 ```
 
 <p align="center">
-  <img src="df.png",width="150" height="200">>
+  <img src="images/df.png",width="150" height="200">>
 </p> 
 
 <p align="center">
-  <img src="bitcoin.png",width="180" height="250">>
+  <img src="images/bitcoin.png",width="180" height="250">>
 </p>
 
 ####  Retrieve Data from Quandl's API
@@ -93,7 +93,7 @@ where e.g.
 quandl_id = 'BCHARTS/BITSTAMPUSD'
 ```
 <p align="center">
-  <img src="krakenUSD.png",width="180" height="250">>
+  <img src="images/krakenUSD.png",width="180" height="250">>
 </p> 
 
 #### Retrieve Data from cryptocompare.com
@@ -103,11 +103,11 @@ Another possibility is to retrieve data from [cryptocompare](https://www.cryptoc
 
 
 <p align="center">
-  <img src="df.png",width="150" height="200">>
+  <img src="images/df.png",width="150" height="200">>
 </p> 
 
 <p align="center">
-  <img src="daily_BTC.png",width="180" height="250">>
+  <img src="images/daily_BTC.png",width="180" height="250">>
 </p> 
 
 
@@ -150,7 +150,7 @@ af.plot_comp(af.trend(dataset,'weighted_price'),
 ```
 
 <p align="center">
-  <img src="components.png">
+  <img src="images/components.png">
 </p> 
 
 To run the LSTM in Keras we must reshape out datasets:
@@ -183,7 +183,7 @@ future values.
 Recurrent Neural Networks (RNN) are designed to handle sequential inputs (in contrast to multilayer perceptrons or convolutional neural nets). When an input is fed into the network, the weights matrix of the hidden layer from the *previous* input is also supplied concomitantly. Since the weights of the hidden layer have essentially "captured" information about the past, the RNN can be said to have "memory." In other words, the output of the network is influenced not just by the input just fed into it, but also by the full history of past inputs. The figure below, borrowed from [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) makes these clearer:
 
 <p align="center">
-  <img src="rnn2.png",width="150" height="200">>
+  <img src="images/rnn2.png",width="150" height="200">>
 </p>
 
 Following [Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), we can write a RNN as the class below:
@@ -207,7 +207,7 @@ Inside the class, the first line updates the hidden state and the following line
 LSTM networks are a type of RNN that is specially handy because they allow large networks to be trained successfully by avoiding problems with vanishing gradients and exploding gradients during backprop.
 
 <p align="center">
-  <img src="LSTM.png",width="150" height="200">>
+  <img src="images/LSTM.png",width="150" height="200">>
 </p>  
 
 
@@ -225,13 +225,13 @@ history = model.fit(X_train, Y_train, epochs=200, batch_size=32,
 ```
 
 <p align="center">
-  <img src="model_running.png",width="350" height="450">>
+  <img src="images/model_running.png",width="350" height="450">>
 </p>
 
 The topology of the network is quite simple (by choice):
 
 <p align="center">
-  <img src="lstm_summary.png",width="200" height="300">>
+  <img src="images/lstm_summary.png",width="200" height="300">>
 </p> 
 
 
@@ -241,7 +241,7 @@ The topology of the network is quite simple (by choice):
 While the model is being trained, the train and test losses vary as shown in the figure below. The package `plotly.graph_objs` is extremely useful. The function `t( )` inside the argument is defined in `aux_func`:
 
 <p align="center">
-  <img src="trainingloss.png",width="300" height="350">
+  <img src="images/trainingloss.png",width="300" height="350">
 </p>  
 
 <a id = 'ptv'></a>
@@ -258,7 +258,7 @@ py.iplot(fig, filename='results')
 ```
 
 <p align="center">
-  <img src="prediction.png",width="300" height="350">
+  <img src="images/prediction.png",width="300" height="350">
 </p> 
 
 <a id = 'wcau'></a>  

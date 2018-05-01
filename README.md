@@ -26,7 +26,7 @@
 
 ## painter-identifier
 
-CNN is
+The goal of this project is to use Transfer Learning to build a Convolutional Neural Network (or ConvNet) to identify the artist of a painting.
 
 <br>
 <p align="center">

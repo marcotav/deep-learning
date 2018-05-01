@@ -7,7 +7,7 @@
 
 <br>
 <p align="center">
-  <img src="Deep learning neural network.jpg" 
+  <img src="images/Deep learning neural network.jpg" 
        width="450" height="250">
 </p>
 <br>
@@ -82,7 +82,7 @@ plt.imshow(X_train[10],cmap = plt.get_cmap('gray'))
 plt.show()
 ```
 <p align="center">
-  <img src="MNIST_3.png"
+  <img src="images/MNIST_3.png"
        width="220" height="220">
 </p>
 <br>
@@ -144,7 +144,7 @@ train_loss_small = history.history['loss']
 test_loss_small = history.history['val_loss']
 ```
 <p align="center">
-  <img src="loss_small_model.png"
+  <img src="images/loss_small_model.png"
        width="400">
 </p>
 <br>
@@ -194,7 +194,7 @@ train_loss_large = large_history.large_history['loss']
 test_loss_large = large_history.large_history['val_loss']
 ```
 <p align="center">
-  <img src="loss_large_model.png"
+  <img src="images/loss_large_model.png"
        width="400">
 </p>
 <br>
@@ -243,7 +243,7 @@ b = tf.Variable(tf.zeros([10]))
 - The loss function is the cross-entropy:
 
 <p align="center">
-  <img src="cross_entropy.png"
+  <img src="images/cross_entropy.png"
        width="350">
 </p>
 <br>

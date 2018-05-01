@@ -24,6 +24,8 @@ The goal of this project is to use Transfer Learning to build a Convolutional Ne
 
 ## cnn-keras-tensor-flow
 
-
+In this notebook I will build and train two types of neural network using the MNIST dataset, namely:
+- A fully-connected neural network using TensorFlow
+- A Keras convolutional network
 
 

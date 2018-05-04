@@ -262,6 +262,35 @@ py.iplot(fig, filename='results')
 </p> 
 
 <a id = 'wcau'></a>  
+
+## Altcoins
+
+Using the Poloniex API and two auxiliar function ([Ref.1](https://blog.patricktriest.com/analyzing-cryptocurrencies-python/)). Choosing the value of the end date to be today we have:
+
+```
+poloniex = 'https://poloniex.com/public?command=returnChartData&currencyPair={}&start={}&end={}&period={}'
+start = datetime.strptime('2015-01-01', '%Y-%m-%d') # get data from the start of 2015
+end = datetime.now() 
+period = 86400 # day in seconds
+```
+```
+def get_crypto_data(poloniex_pair):
+    data_df = af.get_json_data(poloniex.format(poloniex_pair, start.timestamp(), end.timestamp(), period),
+                            poloniex_pair)
+    data_df = data_df.set_index('date')
+    return data_df
+
+lst_ac = ['ETH','LTC','XRP','ETC','STR','DASH','SC','XMR','XEM']
+len(lst_ac)
+ac_data = {}
+for a in lst_ac:
+    ac_data[a] = get_crypto_data('BTC_{}'.format(a))
+```
+
+<p align="center">
+  <img src="images/all_coins.png",width="300" height="350">
+</p> 
+
 ## A word of caution </a> 
 
 

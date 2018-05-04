@@ -286,6 +286,7 @@ ac_data = {}
 for a in lst_ac:
     ac_data[a] = get_crypto_data('BTC_{}'.format(a))
 ```
+A plot including all altcoins follows:
 
 <p align="center">
   <img src="images/all_coins.png",width="300" height="350">

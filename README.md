@@ -53,3 +53,11 @@ More details [here](https://github.com/marcotav/deep-learning/blob/master/keras-
 ## transfer-learning-mini-tutorial
 
 Keras has many well-known pre-trained image recognition models already built in. These models are trained using images from the Imagenet data set, a collection of millions of pictures of labeled objects. Transfer learning is when we reuse these pre-trained models in consort with our own models. If you need to recognize an object not included in the Imagenet set, you can start with the pre-trained model and fine-tune it if need be, and that makes things much easier and faster than starting from scratch. I illustrate this using the Inception V3 deep neural network model. 
+
+<br/>
+<p align="center">
+  <img src="https://github.com/marcotav/deep-learning/blob/master/transfer-learning/images/lionNN.jpg"
+       width="200">
+</p>
+
+

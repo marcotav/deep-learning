@@ -264,7 +264,9 @@ The plots of the training history. The first shows the accuracy and the second s
 
 <p align="center">
   <img src="images/acc.png">
-</p>                                   
+</p>    
+
+
                                  
 <br>  
 

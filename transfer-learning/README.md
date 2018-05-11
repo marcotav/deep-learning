@@ -22,7 +22,7 @@ x = np.expand_dims(x, axis=0)
 
 <br>
 <p align="center">
-  <img src="lionNN.jpg",width="150" height="200">
+  <img src="images/lionNN.jpg",width="150" height="200">
 </p>
 <br>
 

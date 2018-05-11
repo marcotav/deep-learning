@@ -263,7 +263,7 @@ The plots of the training history. The first shows the accuracy and the second s
 <br>
 
 <p align="center">
-  <img src="images/acc.png">
+  <img src="images/acc_curve.png" width ='400'>
 </p>    
 
 
@@ -272,7 +272,7 @@ The plots of the training history. The first shows the accuracy and the second s
 
 
 <p align="center">
-  <img src="images/loss.png">
+  <img src="images/loss_curve.png" width ='400'>
 </p>                                   
                                  
 <br> 

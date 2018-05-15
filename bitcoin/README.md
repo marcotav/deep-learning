@@ -272,10 +272,10 @@ pct_variation = pct_variation[1:]
 
 layout = dict(title = 'True prices vs predicted prices variation (%)',
              xaxis = dict(title = 'Day'), yaxis = dict(title = 'USD'))
-fig = dict(data=[af.prediction_vs_true(pct_variation['prediction'],'Prediction'),af.prediction_vs_true(pct_variation['testing'],'True')],
+fig = dict(data=[af.prediction_vs_true(pct_variation['prediction'],'Prediction')
+                 ,af.prediction_vs_true(pct_variation['testing'],'True')],
            layout=layout)
 py.iplot(fig, filename='results')
-
 ```
 
 <p align="center">
@@ -295,7 +295,10 @@ period = 86400 # day in seconds
 ```
 ```
 def get_crypto_data(poloniex_pair):
-    data_df = af.get_json_data(poloniex.format(poloniex_pair, start.timestamp(), end.timestamp(), period),
+    data_df = af.get_json_data(poloniex.format(poloniex_pair, 
+                                               start.timestamp(),
+                                               end.timestamp(), 
+                                               period),
                             poloniex_pair)
     data_df = data_df.set_index('date')
     return data_df

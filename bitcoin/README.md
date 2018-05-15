@@ -259,7 +259,7 @@ py.iplot(fig, filename='results')
 
 
 <p align="center">
-  <img src="images/pred-vs-true.png",width="300">
+  <img src="images/pred-vs-true.png",width="150">
 </p> 
 
 Repeating the analysis for price variations:
@@ -279,7 +279,7 @@ py.iplot(fig, filename='results')
 ```
 
 <p align="center">
-  <img src="images/price_variations.png",width="300">
+  <img src="images/price_variations.png",width="150">
 </p> 
 
 <a id = 'alt'></a>

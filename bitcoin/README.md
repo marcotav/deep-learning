@@ -257,6 +257,27 @@ fig = dict(data=[af.prediction_vs_true(Y_test_new_inv,'Prediction'),af.predictio
 py.iplot(fig, filename='results')
 ```
 
+
+<p align="center">
+  <img src="images/pred-vs-true.png",width="300">
+</p> 
+
+Repeating the analysis for price variations:
+
+```
+df = pd.DataFrame(data={'prediction':  y_predict.tolist(), 'testing': y_testing})
+
+pct_variation = df.pct_change()[1:]
+pct_variation = pct_variation[1:]
+
+layout = dict(title = 'True prices vs predicted prices variation (%)',
+             xaxis = dict(title = 'Day'), yaxis = dict(title = 'USD'))
+fig = dict(data=[af.prediction_vs_true(pct_variation['prediction'],'Prediction'),af.prediction_vs_true(pct_variation['testing'],'True')],
+           layout=layout)
+py.iplot(fig, filename='results')
+
+```
+
 <p align="center">
   <img src="images/price_variations.png",width="300">
 </p> 
@@ -285,18 +306,6 @@ ac_data = {}
 for a in lst_ac:
     ac_data[a] = get_crypto_data('BTC_{}'.format(a))
 ```
-A plot including all altcoins follows:
-
-<p align="center">
-  <img src="images/all_coins.png",width="300" height="350">
-</p> 
-
-## A word of caution </a> 
-
-
-
-
-
 
 <a id = 'bev'></a>
 ## Bird's eye view of the underlying mathematics

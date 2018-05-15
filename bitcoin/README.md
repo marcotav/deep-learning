@@ -285,10 +285,9 @@ py.iplot(fig, filename='results')
 <a id = 'alt'></a>
 ## Altcoins
 
-Using the Poloniex API and two auxiliar function ([Ref.1](https://blog.patricktriest.com/analyzing-cryptocurrencies-python/)). Choosing the value of the end date to be today we have:
+Using the Poloniex API and two auxiliar function ([Ref.1](https://blog.patricktriest.com/analyzing-cryptocurrencies-python/)). The URL from Poloniex we need, which I call `poloniex`, is [here]('https://poloniex.com/public?command=returnChartData&currencyPair={}&start={}&end={}&period={}') Choosing the value of the end date to be today we have:
 
 ```
-poloniex = 'https://poloniex.com/public?command=returnChartData&currencyPair={}&start={}&end={}&period={}'
 start = datetime.strptime('2015-01-01', '%Y-%m-%d') # get data from the start of 2015
 end = datetime.now() 
 period = 86400 # day in seconds

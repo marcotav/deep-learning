@@ -1,4 +1,4 @@
-# Deep Learning and Bitcoins: A First Draft
+## Deep Learning and Bitcoins: A First Draft
 
 
 ![image title](https://img.shields.io/badge/work-in%20progress-blue.svg) ![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/TensorFlow-v1.7.0-orange.svg) ![image title](https://img.shields.io/badge/statsmodels-v0.8.0-blue.svg) ![Image title](https://img.shields.io/badge/sklearn-0.19.1-orange.svg) ![Image title](https://img.shields.io/badge/seaborn-v0.8.1-yellow.svg) ![Image title](https://img.shields.io/badge/pandas-0.22.0-red.svg) ![Image title](https://img.shields.io/badge/numpy-1.14.2-green.svg) ![Image title](https://img.shields.io/badge/matplotlib-v2.1.2-orange.svg) ![Image title](https://img.shields.io/badge/datetime-v4.0-blue.svg) ![Image title](https://img.shields.io/badge/scipy-v1.0.0-red.svg)
@@ -16,7 +16,7 @@
   <a href="#lstm"> Building LSTM </a> •
   <a href="#ttl"> Train and test loss </a> •
   <a href="#ptv"> Predicted and True Values </a> •
-  <a href="#wcau"> A word of caution </a> •
+  <a href="#alt"> Altcoins </a> •
   <a href="#bev"> Bird's eye view of the underlying mathematics </a> •
   <a href="#td"> To Dos </a>
 </p>
@@ -258,11 +258,10 @@ py.iplot(fig, filename='results')
 ```
 
 <p align="center">
-  <img src="images/prediction.png",width="300" height="350">
+  <img src="images/price_variations.png",width="300">
 </p> 
 
-<a id = 'wcau'></a>  
-
+<a id = 'alt'></a>
 ## Altcoins
 
 Using the Poloniex API and two auxiliar function ([Ref.1](https://blog.patricktriest.com/analyzing-cryptocurrencies-python/)). Choosing the value of the end date to be today we have:

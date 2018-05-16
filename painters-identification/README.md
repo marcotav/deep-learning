@@ -3,15 +3,11 @@
 **For the best viewing experience use [nbviewer](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb).**
 
 
-
-
-
-
 <br>
 <br>
 <p align="center">
   <img src="https://github.com/marcotav/painter-identifier/blob/master/1200px-Leonardo_da_Vinci_-_Virgin_and_Child_with_St_Anne_C2RMF_retouched.jpg" 
-       width="350" height="400">
+       width="350">
 </p>
 <br>
 

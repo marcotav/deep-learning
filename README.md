@@ -3,16 +3,17 @@
 ![Image title](https://img.shields.io/badge/painter--id-v1.0-lightgrey.svg) ![image title](https://img.shields.io/badge/work-in%20progress-blue.svg) ![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/TensorFlow-v1.7.0-orange.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-<p float="center">
-  <img src="images/keras.jpg" width="100" />
-  <img src="/images/tf.png" width="100" /> 
+<br/>
+<p align="center">
+  <img src="images/keras.jpg" width="120">
 </p>
 
 
 <br/>
 <p align="center">
-  <img src="https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/images/Deep%20learning%20neural%20network.jpg" width="400">
+  <img src="/images/tf.png" width="120">
 </p>
+
 
 
 ## Index

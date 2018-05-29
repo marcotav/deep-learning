@@ -1,4 +1,11 @@
-# Transfer Learning ![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/numpy-1.14.2-green.svg)
+## Transfer Learning [[view code]](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/transfer-learning/notebooks/transfer-learning.ipynb) 
+![image title](https://img.shields.io/badge/python-v3.6-green.svg) ![image title](https://img.shields.io/badge/keras-v2.1.5-red.svg) ![Image title](https://img.shields.io/badge/numpy-1.14.2-green.svg)
+
+**The code is available [here](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/transfer-learning/notebooks/transfer-learning.ipynb) or by clicking on the [view code] link above.**
+
+
+
+
 
 
 Keras has many well-known pre-trained image recognition models already built in. These models are trained using images from the Imagenet data set, a collection of millions of pictures of labeled objects. Transfer learning is when we reuse these pre-trained models in consort with our own models. If you need to recognize an object not included in the Imagenet set, you can start with the pre-trained model and fine-tune it if need be, and that makes things much easier and faster than starting from scratch. 

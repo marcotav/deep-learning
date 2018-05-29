@@ -21,11 +21,11 @@
 
 <a id = 'nb'></a>
 ### Notebooks and descriptions
-| Notebook | Brief Description |
+| Project | Brief Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [painter-identifier](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb) | I built a Convolutional Neural Net to identify the artist of a painting via transfer learning, instantiating the convolutional part of the Inception V3 model, and training a fully-connected network on top.|
-| [bitcoin-price-analysis](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/bitcoin/notebooks/deep-learning-LSTM-bitcoins.ipynb) | I built predictive models for Bitcoin price data using recurrent neural networks (LSTMs). Correlations between altcoins are also considered.|
-| [keras-tf-tutorial](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/keras-tf-tutorial/notebooks/neural-nets-digits-mnist.ipynb) | Neural networks tutorial where I build fully-connected networks and convolutional neural networks using both Keras and TensorFlow respectively (in progress). |
+| [painter-identifier](https://github.com/marcotav/deep-learning/blob/master/painters-identification/README.md) | I built a Convolutional Neural Net to identify the artist of a painting via transfer learning, instantiating the convolutional part of the Inception V3 model, and training a fully-connected network on top.|
+| [bitcoin-price-analysis](https://github.com/marcotav/deep-learning/blob/master/bitcoin/README.md) | I built predictive models for Bitcoin price data using recurrent neural networks (LSTMs). Correlations between altcoins are also considered.|
+| [keras-tf-tutorial](https://github.com/marcotav/deep-learning/blob/master/keras-tf-tutorial/README.md) | Neural networks tutorial where I build fully-connected networks and convolutional neural networks using both Keras and TensorFlow respectively (in progress). |
 | [transfer-learning-mini-tutorial](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/transfer-learning/notebooks/transfer-learning.ipynb) | I illustrate the use of transfer learning using the Inception V3 deep neural network model.|
 
 <a id = 'ci'></a>

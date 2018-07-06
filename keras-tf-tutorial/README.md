@@ -25,7 +25,7 @@
 <a id = 'intro'></a>
 ## Introduction
 
-The MNIST dataset contains 70,000 images of digits taken from several scanned documents (normalized in size and centered). Each image is seen by the computer as an array of $28\times 28$ pixels squared. Each of these numbers is given a value from inside $[0,255]$, describing the pixel intensity at that point. Giving the computer this array of numbers, it will output numbers describing the probability of the image pertaining to a given class.
+The MNIST dataset contains 70,000 images of digits taken from several scanned documents (normalized in size and centered). Each image is seen by the computer as an array of 28 x 28 pixels squared. Each of these numbers is given a value from inside [0,255], describing the pixel intensity at that point. Giving the computer this array of numbers, it will output numbers describing the probability of the image pertaining to a given class.
 
 In this notebook I will build and train two types of neural network using the MNIST set, namely:
 - A fully-connected neural network using `TensorFlow`
